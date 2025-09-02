@@ -16,17 +16,21 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+
+      {/* 👇 Changed the heading */}
+      <h1>Hello Varsheni 👋</h1>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          You clicked {count} times
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/App.jsx</code> and save to see changes instantly
         </p>
       </div>
+
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Keep coding and exploring React 🚀
       </p>
     </>
   )
