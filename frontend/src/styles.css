@@ -1,1 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #d9534f;
+}
+
+.form input,
+.search {
+  padding: 8px;
+  margin: 5px;
+  width: calc(33% - 12px);
+}
+
+button {
+  padding: 8px 12px;
+  background: #d9534f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c9302c;
+}
+
+.list .card {
+  background: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
 
